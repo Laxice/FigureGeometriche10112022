@@ -53,21 +53,14 @@ public class Cerchio extends Forma {
         return true;
     }
 
-    private double extracted() {
-        return 2*raggio*Math.PI;
-    }
+    
     @Override
     protected Object clone() throws CloneNotSupportedException {
         // TODO Auto-generated method stub
         return super.clone();
     }
-    @Override
-    protected void finalize() throws Throwable {
-        // TODO Auto-generated method stub
-        super.finalize();
-    }
+   
     
-}
 
     private double extracted() {
         System.out.println("Hello World"); //Aggiunto un print
