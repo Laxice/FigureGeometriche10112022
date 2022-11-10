@@ -32,7 +32,7 @@ public class Cerchio extends Forma {
     private double extracted() {
         return 2*raggio*Math.PI;
     }
-
+// la nuvola è bellissima perchè è unica
     @Override
     public int hashCode() {
         final int prime = 31;
