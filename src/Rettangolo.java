@@ -46,11 +46,7 @@ public class Rettangolo extends Forma {
         return super.equals(obj);
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        // TODO Auto-generated method stub
-        super.finalize();
-    }
+   
 
     @Override
     public int hashCode() {
