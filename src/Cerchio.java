@@ -5,7 +5,7 @@ public class Cerchio extends Forma {
     public Cerchio(double raggio) {
         this.raggio = raggio;
     }
-
+    //Oggi c'è una bellissima nuvola
     @Override
     public double area() {
         return raggio * raggio * Math.PI;
@@ -32,7 +32,7 @@ public class Cerchio extends Forma {
     private double extracted() {
         return 2*raggio*Math.PI;
     }
-// la nuvola è bellissima perchè è unica
+
     @Override
     public int hashCode() {
         final int prime = 31;
